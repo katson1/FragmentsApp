@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+     <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/ic_home"
+            android:title="Início" />
+        <item
+            android:id="@+id/nav_meus_pedidos"
+            android:icon="@drawable/ic_pedidos"
+            android:title="Meus Pedidos" />
+        <item
+            android:id="@+id/nav_lista_desejos"
+            android:icon="@drawable/ic_favorite"
+            android:title="Lista de Desejos" />
+        <item
+            android:id="@+id/nav_carrinho"
+            android:icon="@drawable/ic_shop_car"
+            android:title="Carrinho de Compras" />
+        <item
+            android:id="@+id/nav_my_acc"
+            android:icon="@drawable/ic_acc"
+            android:title="Minha Conta" />
+     </group>
+
+    <item android:title="Cosm App">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_comunicat"
+                android:icon="@drawable/ic_chat"
+                android:title="Fale Conosco" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info_out"
+                android:title="Sobre" />
+            </group>
+        </menu>
+    </item>
+
+</menu>
